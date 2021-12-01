@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aparecida do Norte</title>
+
+    <link rel="shortcut icon" type="imagex/png" href="Img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="author" content="Edmar Bila"/>
+    <meta name="author" content="Moises"/>
+    
+
+</head>
+
+
+
+<body>
+    <header>
+        <div class="header">
+            <div class="header__center">
+                <div class="header__center--menu">
+                  <div class="header__center--logo-titulo">
+                    <img id="logo" src="Img/logo.png" alt="imagex" width=180 height=70>
+                    <h1 class="titulo efeito-glow">Aparecida do Norte</h1>
+                    <h4 id="boas-vindas">Seja Bem Vindo</h4>
+                    <button class=botao-login>Clique Aqui Para Login</button>
+                  </div>
+                </div>
+            </div>
+        </div> 
+
+    </header>
+
+    <main>
+        <div class="formulario-pessoal">
+            <h3 class=titulo__formulario>É novo por aqui? Preencha o Formulário Abaixo.</h3>
+            <form action="/registro" class=formulario method="POST">
+                <div class=formulario__pessoal>
+
+                     <label for="nome">Nome:</label>
+                     <input class="form efeito-glow" type="text" name="nome" maxlength="100" placeholder="Digite seu nome" required> 
+               
+                     <label for="email">E-mail:</label>
+                     <input class="form efeito-glow" type="email" name="email" placeholder="Digite seu e-mail" required> 
+                
+                     <label for="telefone">Telefone com DDD:</label>
+                     <input class="form efeito-glow" type="tel" name="telefone" placeholder=" " required>
+                
+                     <label for="data">Data de Nascimento:</label>
+                     <input class="form efeito-glow" type="date" name="data" required>
+                     
+                </div>
+
+                <div class=formulario__validar--idade>
+
+                     <b id="texto-idade">Você é maior de idade?</b>
+                
+                     <input type="radio" name="idade" value="sim">Sim
+                     <input type="radio" name="idade" value="nao">Não
+                </div>
+            
+            </form> 
+
+        </div>
+        
+        <section class="ponto-interesse"><b>Escolha um ponto de interesse em Aparecida do Norte:</b></section>
+        
+        <div class="box-geral">
+        <section class="carrossel__pai">
+            <input type="checkbox" name="a" value="sim"> Santuario Nossa Senhora Aparecida
+            
+            <section class="galery">
+            
+              <div class="fotos">
+                <img src="Img/carrossel1/S1.jpg" class="d-block w-100" alt="S1">
+                <img src="Img/carrossel1/S2.jpg" class="d-block w-100" alt="S2">
+                <img src="Img/carrossel1/S3.jpg" class="d-block w-100" alt="S3">
+                <img src="Img/carrossel1/S4.png" class="d-block w-100" alt="S4">
+                <img src="Img/carrossel1/S5.jpg" class="d-block w-100" alt="S5">
+            
+               </div>
+
+            </section>
+        </section>
+        <section class="carrossel__pai">
+            <input  type="checkbox" name="a" value="sim"> Basílica Velha de Nossa Senhora Aparecida
+            
+            <section class="galery">
+            
+              <div class="fotos">
+                <img src="Img/carrossel2/B1.jpg" class="d-block w-100" alt="B1">
+                <img src="Img/carrossel2/B2.jpg" class="d-block w-100" alt="B2">
+                <img src="Img/carrossel2/B3.jpg" class="d-block w-100" alt="B3">
+                <img src="Img/carrossel2/B5.jpg" class="d-block w-100" alt="B4">
+                <img src="Img/carrossel2/B6.jpg" class="d-block w-100" alt="B5">
+            
+               </div>
+
+            </section>
+        </section>
+        <section class="carrossel__pai">
+            <input type="checkbox" name="a" value="sim"> Cidade do Romeiro
+            
+            <section class="galery">
+            
+              <div class="fotos">
+                <img src="Img/carrossel3/C1_adobespark.jpg" class="d-block w-100" alt="C1">
+                <img src="Img/carrossel3/C2_adobespark.jpg" class="d-block w-100" alt="C2">
+                <img src="Img/carrossel3/C3_adobespark.jpg" class="d-block w-100" alt="C3">
+                <img src="Img/carrossel3/C4_adobespark.jpg" class="d-block w-100" alt="C4">
+                <img src="Img/carrossel3/C5_adobespark.jpg" class="d-block w-100" alt="C5">
+            
+               </div>
+
+            </section>
+        </section>
+        </div>
+
+        <div class="box-geral2">
+        <section class="carrossel__pai">
+            <input type="checkbox" name="a" value="sim"> Morro do Cruzeiro
+            
+            <section class="galery">
+            
+              <div class="fotos">
+                <img src="Img/carrossel5/MC1.jpg" class="d-block w-100" alt="MC1">
+                <img src="Img/carrossel5/MC2.jpg" class="d-block w-100" alt="MC2">
+                <img src="Img/carrossel5/MC3.jpg" class="d-block w-100" alt="MC3">
+                <img src="Img/carrossel5/MC4.jpg" class="d-block w-100" alt="MC4">
+                <img src="Img/carrossel5/MC5.jpg" class="d-block w-100" alt="MC5">
+            
+               </div>
+
+            </section>
+        </section>
+        <section class="carrossel__pai">
+            <input type="checkbox" name="a" value="sim"> Feirinha de Aparecida
+            
+            <section class="galery">
+            
+              <div class="fotos">
+                <img src="Img/carrossel6/F1.jpg" class="d-block w-100" alt="F1">
+                <img src="Img/carrossel6/F2.jpg" class="d-block w-100" alt="F2">
+                <img src="Img/carrossel6/F3.jpg" class="d-block w-100" alt="F3">
+                <img src="Img/carrossel6/F4.png" class="d-block w-100" alt="F4">
+                <img src="Img/carrossel6/F5.jpg" class="d-block w-100" alt="F5">
+            
+               </div>
+
+            </section>
+        </section>
+        <section class="carrossel__pai">
+            <input type="checkbox" name="a" value="sim"> Museu de Cera
+            
+            <section class="galery">
+            
+              <div class="fotos">
+                <img src="Img/carrossel4/M1_adobespark.jpg" class="d-block w-100" alt="S1">
+                <img src="Img/carrossel4/M2.jpg" class="d-block w-100" alt="S2">
+                <img src="Img/carrossel4/M3.jpg" class="d-block w-100" alt="S3">
+                <img src="Img/carrossel4/M4.jpeg" class="d-block w-100" alt="S4">
+                <img src="Img/carrossel4/M5.jpg" class="d-block w-100" alt="S5">
+            
+               </div>
+
+            </section>
+
+        </section>
+      </div>
+
+      <div class="categoria__div">
+        <form action="/registro" class=formulario method="POST"></form>
+
+           <div class=categoria>
+                <b>Qual sua Demanda em Aparecida do Norte?:</b>
+                <br>
+                <input type="checkbox" name="a" value="sim"> Sou Turista
+                <br>
+                <input type="checkbox" name="b" value="sim"> Sou Residente
+                <br>
+                <input type="checkbox" name="c" value="sim"> Sou Estudante
+                <br>
+                <input type="checkbox" name="c" value="sim"> Estou a Trabalho
+               
+                <div class=botao-rodape>
+                    <button class="botao" type="reset">Resetar</button>
+                    <button class="botao" type="submit">Enviar</button>
+                </div>
+
+                <div class="separador">
+
+                </div>
+            </div>
+                
+                
+               
+       </div>
+        
+        
+    </main>
+    
+</body>
+
+<footer>
+    <h4 class="redes">Redes Sociais</h4>
+
+    <div class="redes__links">
+
+        <div class="redes__links--instagram">
+              <a href="https://www.instagram.com/tvaparecida/?hl=pt-br" target="_blank "><img src="Img/instagram2.png" width="40" height="40" class="icones "></a>
+        </div>
+
+        <div class="redes__links--youtube">
+             <a href="https://www.youtube.com/c/tvaparecidaoficial" target="_blank "><img src="Img/youtube2.png" width="40" height="40" class="icones "></a>
+        </div>
+
+        <div class="redes__links--twitter">
+             <a href="https://twitter.com/tvaparecida" target="_blank "><img src="Img/twitter2.png" width="40" height="40" class="icones "></a>
+        </div>
+
+        <div class="redes__links--facebook">
+             <a href="https://www.facebook.com/santuariodeaparecidaoficial/" target="_blank "><img src="Img/facebook2.png" width="40" height="40" class="icones "></a>
+        </div>
+
+        <span style="margin: 15pt;">Contato</span><span style="margin: 15pt;">Endereço</span><span style="margin: 15pt;">Todos os Direitos  Reservados</span>
+    
+    </div>
+
+</footer>
+
+</html>
